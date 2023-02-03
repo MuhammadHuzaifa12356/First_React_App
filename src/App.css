@@ -14,16 +14,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #03071e;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #03071e;
 }
-
+.App h1 {
+  color: white;
+  font: 2em caption;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +39,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  border: 2px solid;
+  border-radius: 20px;
+
+  color: aliceblue;
+  margin: 18px;
+  width: 200px;
+  font: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
+}
+.card h1 {
+  color: white;
+  background-color: black;
+  font: 1em caption;
+}
+.card p {
+  font-size: 20px;
+  text-align: center;
+}
+.card p img {
+  width: 200px;
+  height: 200px;
+  border: 30px;
 }
